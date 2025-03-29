@@ -61,9 +61,9 @@ function playGame() {
     playRound(getComputerChoice(), getHumanChoice())
     playRound(getComputerChoice(), getHumanChoice())
     if (humanScore > computerScore) {
-        winner = `You won with a result of: ${humanScore}`
+        winner = `You won 🎉 with a result of: ${humanScore}`
     } else if (computerScore > humanScore) {
-        winner = `Computer won with a result of: ${computerScore}`
+        winner = `Computer won 😭 with a result of: ${computerScore}`
     } else {
         winner = `It is a tie`
     }
