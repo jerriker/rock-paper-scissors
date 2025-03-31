@@ -4,8 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="container">
+      <h1>Choose between Rock Paper & Scissors</h1>
+      <div class="button-icons">
+        <button onclick="getHumanChoice('rock')">
+          <img src="./image/rock-emoji.png" alt="Rock" class="move-icons" />
+        </button>
+        <button onclick="getHumanChoice('paper')">
+          <img src="./image/paper-emoji.png" alt="Paper" class="move-icons" />
+        </button>
+        <button onclick="getHumanChoice('scissors')">
+          <img
+            src="./image/scissors-emoji.png"
+            alt="Scissors"
+            class="move-icons"
+          />
+        </button>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
